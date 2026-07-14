@@ -8,19 +8,19 @@ O projeto realiza a coleta automática de imóveis através da API da CTI Imobil
 
 ## Dashboard
 
-![Dashboard](images\Dash_print.png)
+![Dashboard](images/Dash_print.png)
 
 ---
 
 ## Resumo no Terminal
 
-![Terminal](images\terminal.png)
+![Terminal](images/terminal.png)
 
 ---
 
 ## Exportações
 
-![Excel](images\ExcellPrint.png)
+![Excel](images/ExcellPrint.png)
 
 ---
 
