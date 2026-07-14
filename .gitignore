@@ -1,0 +1,28 @@
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+.venv/
+env/
+
+# Arquivos do VS Code
+.vscode/
+
+# Arquivos do PyCharm
+.idea/
+
+# Arquivos gerados pelo sistema
+.DS_Store
+Thumbs.db
+
+# Exportações geradas pela aplicação
+exports/
+
+# Dashboard gerado automaticamente
+dashboard/
+
+# Logs
+*.log
