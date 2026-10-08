@@ -1,121 +1,83 @@
-# 🏠 Property Market Analyzer
+# Property Market Analyzer
 
-Um analisador de dados do mercado imobiliário desenvolvido em Python.
+A Python-based real estate market data analysis tool.
 
-O projeto realiza a coleta automática de imóveis através da API da CTI Imobiliária, processa os dados, gera análises estatísticas, exporta relatórios em diferentes formatos e cria um dashboard com visualização gráfica das principais informações.
-
----
+The project automatically collects property listings through the CTI Imobiliária API, processes the data, performs statistical analysis, generates rankings, exports reports in multiple formats, and provides a dashboard with visual insights.
 
 ## Dashboard
 
 ![Dashboard](images/Dash_print.png)
 
----
-
-## Resumo no Terminal
+## Terminal Summary
 
 ![Terminal](images/terminal.png)
 
----
+## Data Exports
 
-## Exportações
+![Excel Export](images/ExcellPrint.png)
 
-![Excel](images/ExcellPrint.png)
+## Features
 
----
+* Automatic property data collection through an API
+* Automatic pagination
+* Error handling during data collection
+* Modular application structure
+* Statistical analysis of property data
+* Neighborhood rankings
+* City rankings
+* Property type rankings
+* Bedroom count rankings
+* JSON export
+* CSV export
+* Excel export
+* Data visualization dashboard
+* Terminal summary
 
-# Funcionalidades
+## Tech Stack
 
-- Coleta automática de imóveis através da API
-- Paginação automática
-- Tratamento de erros durante a coleta
-- Estrutura modular
-- Análise estatística dos imóveis
-- Ranking de bairros
-- Ranking de cidades
-- Ranking por tipo de imóvel
-- Ranking por quantidade de quartos
-- Exportação para JSON
-- Exportação para CSV
-- Exportação para Excel
-- Dashboard com gráficos
-- Resumo no terminal
+* **Python**
+* **Requests** for API communication
+* **Pandas** for data processing and analysis
+* **Matplotlib** for data visualization
+* **JSON** for structured data export
 
----
-
-# Tecnologias
-
-- Python
-- Requests
-- Pandas
-- Matplotlib
-- JSON
-
----
-
-
----
-
-# Fluxo da Aplicação
+## Application Flow
 
 ```text
-API CTI
-    │
-    ▼
+CTI API
+   │
+   ▼
 Scraper
-    │
-    ▼
+   │
+   ▼
 Analyzer
-    │
-    ├── Terminal
-    ├── Dashboard
-    └── Exportações
+   │
+   ├── Terminal
+   ├── Dashboard
+   └── Data Exports
 ```
 
----
-
-# Como executar
-
-Clone o repositório:
+## Running Locally
 
 ```bash
 git clone https://github.com/robertob-data/Property-Market-Analyzer.git
-```
-
-Entre na pasta:
-
-```bash
 cd Property-Market-Analyzer
-```
-
-Instale as dependências:
-
-```bash
 pip install -r requirements.txt
-```
-
-Execute:
-
-```bash
 python main.py
 ```
 
----
+## Generated Results
 
-# Resultados Gerados
+After execution, the application generates:
 
-Ao finalizar a execução, o projeto gera automaticamente:
+* Dashboard image (`.png`)
+* Excel report (`.xlsx`)
+* CSV file
+* JSON file
+* Statistical summary in the terminal
 
-- Dashboard em imagem (.png)
-- Relatório Excel (.xlsx)
-- Arquivo CSV
-- Arquivo JSON
-- Resumo estatístico no terminal
+## Author
 
----
-
-## Autor
-
-Roberto Batista Dias
+**Roberto Batista Dias**
 
 Python Developer
